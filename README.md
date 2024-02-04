@@ -34,6 +34,8 @@ Calculamos los datos descriptivos:
 desc = equipos.describe()
 ```
 
+<img width="154" alt="desc" src="https://github.com/pelahumi/Api_Casas_Apuestas/assets/91721764/04557159-6fd2-46b9-988a-8a53515564b4">
+
 Y graficamos los datos:
 
 ![bar1](https://github.com/pelahumi/Api_Casas_Apuestas/assets/91721764/9d7ecfad-beb9-469a-addd-0a23297ec4b9)
