@@ -17,7 +17,7 @@ desc = equipos.describe()
 nulos = equipos.isnull().sum()
 print(nulos)
 
-"""#Outliers
+#Outliers
 equipos.boxplot(column='puntuacion')
 plt.title('Boxplot de puntuacion')
 plt.show()
@@ -41,8 +41,6 @@ plt.show()
 equipos['puntuacion'].hist(by=equipos['pais'])
 plt.title('Distribucion de la puntuacion por pais')
 plt.show()
-
-"""
 
 #Vemos cuanto equipos hay por pais
 equipos['pais'].value_counts().plot(kind='bar')
